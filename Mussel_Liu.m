@@ -1,7 +1,7 @@
 %%%
 %This is the code of mussel pattern 
 %Liu, Q.-X. et al. Phase separation explains a new class of self-organized 
-%spatial patterns in ecological systems. PNAS 110, 11905¨C11910 (2013).
+%spatial patterns in ecological systems. PNAS 110, 11905Â¨C11910 (2013).
 % 
 %Copyright: Zhenpeng Ge, Quanxing Liu, East China Normal University.
 %Licence: MIT Licence
@@ -17,7 +17,7 @@ dy = 1 ;
 dt = 0.1 ;
 kernel = [0,1/(dx*dx),0;1/(dy*dy),-2/(dx*dx)-2/(dy*dy),1/(dy*dy);0,1/(dx*dx),0] ;
 
-P = 1 + 0.1*(rand(N)*2 - 1) ;
+P = 0.45 + 0.1*(rand(N)*2 - 1) ;
 % P = rand(N) ;
 %Pmass = zeros(T,1) ;
 %varP = zeros(T,1) ;
